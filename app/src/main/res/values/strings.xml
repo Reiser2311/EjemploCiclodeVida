@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">EjemploCiclodeVida</string>
+
+    <string name="cadena">
+        Orden de ejecucion de los petodos: \n\n
+        1. Al crear la aplicacion se lanzan los metodos: onCreate, onStart y onResume. \n\n
+
+        2. Si haces click en el boton "Volver atras" se lanzan los metodos onPause, onStop, onDestroy.\n\n
+
+        3. Al hacer click en home se lanzan los metodos onPause y onStop\n\n
+
+        4. Cuando la aplicacion finaliza se lanzan los metodos onPause, onStop y onDestroy\n\n
+
+        5. Si volvemos a ejecutar una aplicacion destruida o en espera se lanzan los metodos onRestart, onStart y onResume.\n\n
+
+
+    </string>
+</resources>
